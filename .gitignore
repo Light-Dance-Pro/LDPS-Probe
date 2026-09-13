@@ -1,5 +1,13 @@
 .pio/
 .vscode/
+.DS_Store
+.generated/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+!.env.*.example
 
 # Claude Code — never commit per-user state (memory / personal rules / local settings).
 # Personal subpaths only, so team .claude/{settings.json,hooks,commands} can still be committed.
